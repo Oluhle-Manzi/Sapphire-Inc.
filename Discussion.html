@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Muhammand -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTU Discussion</title>
+    <link rel="stylesheet" href="CTU_Styles2.css">
+    <link rel="stylesheet" href="DiscussionStyle.css">
+    <link rel="icon" href="blackfavicon.ico" type="image/x-icon">
+</head>
+<header><!-- Caitlyn, this will have the buttons on the nav bar access the different web pages -->
+    <nav class="navbar">
+        <img src="logo.jpg" alt="Campus Logo" class="logo">
+        <ul>
+            <li class="nav-btn"><a href="index.html"         target="_parent">Home</a></li> <!-- Muhammad Fuzail Patel: Home page name changed for hosting purposes -->
+            <li class="nav-btn"><a href="Timetable.html"     target="_parent">Timetable</a></li>
+            <li class="nav-btn"><a href="Discussion.html"    target="_parent">Discussion</a></li>
+            <li class="nav-btn"><a href="ShareResources.html"target="_parent">Share Resources</a></li>
+            <li class="nav-btn"><a href="About.html"         target="_parent">About Us</a></li>
+            <li class="nav-btn"><a href="ContactUs.html"     target="_parent">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<body class="discussbody">
+            
+            <form action="/action_page.php" method="post">
+                <fieldset>
+                    <legend style="font-size: 30px;">Message</legend>
+                    <label for="message">Content:</label>
+                    <input type="textarea" id="message" placeholder="Your message..." size="50" autofocus>
+                    <input type="submit">
+                </fieldset>
+            </form>
+
+        <table style="width:90%" class="discussiontable">
+            <caption>General Forum</caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="fontstyle" style="width: 7%;">Profile</th> <!-- Table headings. Style attribute for specific width for each column -->
+                    <th scope="col" class="fontstyle" style="width: 50%;">Content</th>
+                    <th scope="col" class="fontstyle" style="width: 5%;">Replies</th>
+                    <th scope="col" class="fontstyle" style="width: 8%;">Time & Last Post</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--table row -->
+                    <td><img class="profilepic" src="profilepic.png" alt="User 1"> <br>John Doe</td> 
+                    <td>When is the meeting for campus extra curriculum activities?</td>
+                    <td>10</td>
+                    <td><img class="profilepic" src="profilepic.png" alt="User 1"><br>1 hours ago</td>
+                </tr>
+                <tr> <!--table row -->
+                    <td><img class="profilepic" src="profilepic.png" alt="User 2"> <br>Jane Smith</td>
+                    <td>How do we schedule an appointment to see the campus manager?</td>
+                    <td>5</td>
+                    <td><img class="profilepic" src="profilepic.png" alt="User 2"><br>4 hours ago</td>
+                </tr>
+                <tr> <!--table row -->
+                    <td><img class="profilepic" src="profilepic.png" alt="User 3"> <br>Sean Alvarado</td>
+                    <td>When is the Compliance documents due?</td>
+                    <td>6</td>
+                    <td><img class="profilepic" src="profilepic.png" alt="User 3"><br>5 hours ago</td>
+                </tr>
+                <tr> <!--table row -->
+                    <td><img class="profilepic" src="profilepic.png" alt="User 4"> <br>Millie Newton</td>
+                    <td>When are the international exam dates going to be released?</td>
+                    <td>8</td>
+                    <td><img class="profilepic" src="profilepic.png" alt="User 4"><br>6 hours ago</td>
+                </tr>
+                <tr> <!--table row -->
+                    <td><img class="profilepic" src="profilepic.png" alt="User 5"> <br>Astrid Sosa</td>
+                    <td>To whom do we submit our profile documents?</td>
+                    <td>2</td>
+                    <td><img class="profilepic" src="profilepic.png" alt="User 5"><br>9 hours ago</td>
+                </tr>
+                <!-- Add more rows for other posts - upscale with Javascript -->
+            </tbody>
+        </table>
+    
+    <div class="footerDiv">
+        <footer class="footer" role="contentinfo"> <!-- Caitlyn, a footer with the same hyper links as the nav bar, with a gmail link to send an email -->
+            <br>
+            <br>
+            <ul>
+                <li class="nav-btn1"><a href="index.html">Home</a></li>
+                <li class="nav-btn1"><a href="Timetable.html">Timetable</a></li>
+                <li class="nav-btn1"><a href="Discussion.html">Discussion</a></li>
+                <li class="nav-btn1"><a href="ShareResources.html">Share Resources</a></li>
+                <li class="nav-btn1"><a href="About.html">About Us</a></li>
+                <li class="nav-btn1"><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+            <a href="default.asp">
+                <img class= "iconplace1" src="blackfavicon.ico" alt="CTU logo" style="width:42px;height:42px;">
+                </a>
+            <address> <!-- Muhammad Fuzail  -->
+                <pre class = "footer1">
+                    Madam Whatever
+                    <a href="tel:+27 547 543 6782">+27 547 543 6782</a>
+                    <a href="mailto:madamwhatever@gmail.com">MadamWhatever@gmail.com</a> 
+
+                    Sapphire Inc &copy; 2023 <!-- Muhammad Fuzail Patel -->
+                </pre> 
+            </address> 
+        </footer> 
+    </div>
+
+    <script type="" src="script.js"></script>
+</body>
+</html>

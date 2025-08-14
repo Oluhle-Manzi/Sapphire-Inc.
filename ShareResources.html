@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Muhammand Fuzail -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTU Share Resources</title>
+    <link rel="stylesheet" href="CTU_Styles2.css">
+    <link rel="icon" href="blackfavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="ShareResources.css">
+</head>
+
+<body>
+    <header><!-- Caitlyn: this will have the buttons on the nav bar access the different web pages -->
+        <nav class="navbar">
+            <img src="logo.jpg" alt="Campus Logo" class="logo">
+            <ul>
+                <li class="nav-btn"><a href="index.html"          target="_parent">Home</a></li> <!-- Muhammad Fuzail Patel: Home page name changed for hosting purposes -->
+                <li class="nav-btn"><a href="Timetable.html"      target="_parent">Timetable</a></li>
+                <li class="nav-btn"><a href="Discussion.html"     target="_parent">Discussion</a></li>
+                <li class="nav-btn"><a href="ShareResources.html" target="_parent">Share Resources</a></li>
+                <li class="nav-btn"><a href="About.html"          target="_parent">About Us</a></li>
+                <li class="nav-btn"><a href="ContactUs.html"      target="_parent">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <div class="search-container"> <!--a search bar to search for resources -->
+        <input type="search" class="search-input" placeholder="Search..."> <!-- changed type:"text" to "search" -->
+        <button class="search-button">
+            <img src="search-icon.png" alt="Search">
+        </button>
+    </div>
+        
+        <table style="width:90%">
+            <caption>Resources</caption>
+            <tr>
+                <th>Files</th>
+                <th>Category</th>
+                <th>Download</th>
+            </tr>
+            
+            <tr>
+                <td>How to write a bibliography.pdf</td>
+                <td>English</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a  >Download</a></button></td> 
+            </tr>
+            
+            <tr>
+                <td>Software Requirements.pdf</td>
+                <td>IT (Information Technology)</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a  >Download</a></button></td>
+            </tr>
+            
+            <tr>
+                <td>Drawing Pad Guidelines</td>
+                <td>Photography</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+            
+            <tr>
+                <td>Business Ethics.pdf</td>
+                <td>Presentation</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+            
+            <tr>
+                <td>Weekly Newsletter.pdf</td>
+                <td>University Newsletter</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+
+            <tr>
+                <td>Workshop Schedule.pdf</td>
+                <td>Extracurricar Activities</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+            
+            <tr>
+                <td>Sustainability.pdf</td>
+                <td>Research Papers</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+            
+            <tr>
+                <td>International Study Oportunities.pdf</td>
+                <td>Study Abroad</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+            
+            <tr>
+                <td>CV Writing Tips.pdf</td>
+                <td>Career Development</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+            
+            <tr>
+                <td>Computer Science Internships.pdf</td>
+                <td>Internships</td>
+                <td><button class="downloadbut" onclick="startdownload()"><a>Download</a></button></td>
+            </tr>
+        </table>
+
+    <div class="upload">
+    <h3>Upload Your File (PDF)</h3>
+    <form action="upload_handler.php" method="post">
+        <input type="file" name="pdf_file" accept=".pdf" required> 
+        <input type="submit" value="Upload">
+    </form>
+    </div>
+
+    <div class="footerDiv">
+        <footer class="footer" role="contentinfo"> <!-- Caitlyn, a footer with the same hyper links as the nav bar, with a gmail link to send an email -->
+                <br>
+                <br>
+                <ul>
+                    <li class="nav-btn1"><a href="index.html">Home</a></li>
+                    <li class="nav-btn1"><a href="Timetable.html">Timetable</a></li>
+                    <li class="nav-btn1"><a href="Discussion.html">Discussion</a></li>
+                    <li class="nav-btn1"><a href="ShareResources.html">Share Resources</a></li>
+                    <li class="nav-btn1"><a href="About.html">About Us</a></li>
+                    <li class="nav-btn1"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+                <a href="default.asp">
+                    <img class= "iconplace1" src="blackfavicon.ico" alt="CTU logo" style="width:42px;height:42px;">
+                    </a>
+                <address> <!-- Muhammad Fuzail  -->
+                    <pre class = "footer1">
+                    Madam Whatever
+                    <a href="tel:+27 547 543 6782">+27 547 543 6782</a>
+                    <a href="mailto:madamwhatever@gmail.com">MadamWhatever@gmail.com</a> 
+
+                    Sapphire Inc &copy; 2023 <!-- Muhammad Fuzail Patel -->
+                    </pre> 
+                </address>
+        </footer> 
+    </div>
+    <script type="" src="script.js"></script>
+</body>

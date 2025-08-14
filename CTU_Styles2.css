@@ -1,0 +1,504 @@
+/* Caitlyn: changes the colour of the hyperlink since it couldn't be seen */
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Muhammad Fuzail Patel : Home page logo in navbar */
+.logo {
+  border-radius: 25%;
+  height: 100px;
+  width: 115px;
+}
+
+/*Caitlyn; to make it so that any links */
+a:hover {
+  color: rgb(119, 119, 255);
+}
+
+
+/* Caitlyn: to get rid of the footer having a weird space on its sides */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Caitlyn: to make the tables have space between the text*/
+td {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 15px;
+}
+
+/*Caitlyn: color changes when hovering over it */
+td:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0), rgb(0, 0, 0));
+}
+
+
+/* Caitlyn: to make the text be centered on Timetable page*/
+.tablelun {
+  text-align: center;
+}
+
+/* Caitlyn: for the title on the page for the timetable page*/
+.tablehead {
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 5%;
+  text-align: center;
+}
+
+/* Caitlyn: to make a back drop for the tables  */
+.table {
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgba(70, 68, 97, 0.507), rgba(0, 0, 0, 0.459));
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+/* Muhamamd: Timetable page - Changed display method */
+.time-table {
+  font-size: 20px;
+}
+
+/* Caitlyn: Timetable - to add some opactiy over the table to create contrast */
+.tablerow {
+  background-color: #333;
+  color: white;
+}
+
+/*Caitlyn: color changes when hovering over it */
+.tablerow:hover {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0), rgb(0, 0, 0));
+}
+
+
+
+/*Caitlyn: color changes when hovering over it */
+.abtindtext:hover {
+  font-size: 23px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0), rgb(0, 0, 0));
+}
+
+/* Caitlyn: text in the photo  */
+.abtphototext {
+  /* font-size: ; */
+  transition: 1s;
+  text-align: right;
+  padding-left: 50%;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.726));
+}
+
+/*Caitlyn: changes the color and text size when hovering over them */
+.abtphototext:hover {
+  font-size: 23px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0), rgb(0, 0, 0));
+}
+
+
+
+/* Caitlyn, the photo for the About us  */
+.abtphoto {
+  margin-top: 100px;
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin:5%;
+  background-image: url("photo.png");
+
+} 
+
+/* Caitlyn, the vison photo on about us page */
+.abtvis {
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin:5%;
+  background-image: url("photo2.png");
+}
+
+/* Caitlyn, text on the photo */
+.abtphotovis {
+  /* font-size: 60%; */
+  transition: 1s;
+  text-align: left;
+  padding-right: 50%;
+  background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.733));
+}
+
+/*Caitlyn: changes the color and text size when hovering over */
+.abtphotovis:hover {
+  font-size: 23px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0), rgb(0, 0, 0));
+}
+
+
+/* Caitlyn, text on the photo for individuals */
+.abtindtext {
+  /* font-size: 50%; */
+  transition: 1s;
+  text-align: right;
+  padding-left: 50%;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.726));
+}
+
+/*Caitlyn: changes the color and text size when hovering over*/
+.abtindtext:hover {
+  font-size: 23px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0), rgb(0, 0, 0));
+}
+
+
+/* Caitlyn, photo for indivduals on about us page */
+.abtphotoind {
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin:5%;
+  background-image: url("photo3.png");
+} 
+
+/* Paragraph about Caitlyn */
+.abtCaitlyntxt {
+  transition: 1s;
+  text-align: 10px;
+  padding-top: 10px;
+  font-size: 40%;
+  background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.733));
+}
+
+/*Caitlyn: changes the color and text size when hovering over it*/
+.abtCaitlyntxt:hover {
+  font-size: 60%;
+  background-color: black;
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0.438), rgb(0, 0, 0));
+}
+
+
+/* Paragraph about Muhammad Fuzail */
+.abtMuhammadtxt {
+  text-align: 10px;;
+  padding-top: 10px;
+  margin-left: 10px;
+  font-size: 40%;
+  transition: 1s;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0),  rgba(22, 18, 51, 0.726));
+}
+
+/*Caitlyn: changes the color and text size when hovering over it*/
+.abtMuhammadtxt:hover {
+  font-size: 60%;
+  background-color: black;
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0.438), rgb(0, 0, 0));
+}
+
+/* Paragraph about Oluhle */
+.abtOlhuletxt {
+  transition: 1s;
+  text-align: 10px;;
+  padding-top: 10px;
+  margin-left: 10px;
+  font-size: 40%;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0),  rgba(22, 18, 51, 0.726));
+}
+
+/* Muhammad Fuzail Patel */
+.teamMembers {
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowContent:hover {
+  text-decoration: none; 
+}
+
+
+/*Caitlyn: changes the color and text size when hovering over it*/
+.abtOlhuletxt:hover {
+  font-size: 60%;
+  background-color: black;
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0.438), rgb(0, 0, 0));
+}
+
+/*Caityln; adds the background to the dev team paragraphs */
+.abtteam {
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  text-align: center;
+  width: 50%; 
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(41, 38, 78, 0.726));
+}
+
+.abttext {
+  font-size: 40%;
+  text-align: right;
+  padding-left: 60%;
+}
+
+/* Caitlyn */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ce5c10c7;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgb(82, 83, 122), rgb(27, 27, 27));
+}
+
+/* Caitlyn */
+.nav-btn {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #444;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/*Caitlyn; this will make it so that when you hover over the nav buttons they will change color */
+.nav-btn:hover {
+  background-color: rgb(42, 33, 160);
+  background-image: linear-gradient(to bottom right, #3A3A3B , #040404);
+  color: black;
+}
+
+/* Muhammad: Discussion table */
+.discussiontable {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Muhammad: Share Resources page*/
+.search-container {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 10%;
+  margin-right: 3.2%;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Muhammad: Share resources search bar */
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+/* Muhammad: Share resources search bar*/
+.search-button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Muhammad: Share resources search bar*/
+.search-button img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Caitlyn: footer buttons  */
+.nav-btn1 {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px 20px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, #3A3A3B , #040404);
+}
+
+/*Caitlyn; this will make the buttons in the footer change color if you hover over them */
+.nav-btn1:hover {
+  background-color: rgb(42, 33, 160);
+  background-image: linear-gradient(to bottom right, #444670 , #040404);
+  color: black;
+}
+
+/* Caitlyn: contact us page, box for the concat devs  */
+.contactdevtxt {
+  text-align: 10px;;
+  font-size: 40%;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0),  rgba(22, 18, 51, 0.726));
+}
+
+/*Caitlyn: changes the color and text size when hovering over it*/
+.contactdevtxt:hover {
+  font-size: 60%;
+  background-color: black;
+  background-image: linear-gradient(to bottom right, rgba(5, 0, 78, 0.438), rgb(0, 0, 0));
+}
+
+
+/* Caitlyn: contact us page, box for the concat devs  */
+.contactdev {
+  height: 300px;
+  text-align: center;
+  width: 400px;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(41, 38, 78, 0.726));
+
+} 
+
+/*Caityln; to store the two boxs and make them in a line */
+.contclist {
+  display: inline-block;
+}
+
+/*Caitlyn; to store the two boxes to keep them together when making margins*/
+.contcdiv {
+  margin-top: 200px;
+  object-position: right;
+  margin-left: 900px;
+  margin-bottom: 400px;
+  width: 1000px;
+}
+
+/* Caitlyn: contact us page tgis one is for the heading to contact the univirsity  */
+.contactCTU {
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+/* Caitlyn, contact us page for the contact Unvisity */
+.contactCTUtxt {
+  text-align: 10px;
+  padding-top: 15px;
+  font-size: 40%;
+  background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.733));
+}
+
+/*Caitlyn: changes the color and text size when hovering over it*/
+.contactCTUtxt:hover {
+  font-size: 60%;
+  background-color: black;
+  background-image: linear-gradient(to bottom right, rgb(153, 153, 153), rgb(116, 116, 117));
+}
+
+
+.contactheader {
+  color: white;
+  width: 900px;
+  margin-left: 700px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 450%;
+  text-align: center;
+  background-image: linear-gradient(to top right, rgba(94, 104, 155, 0.295), rgba(58, 64, 85, 0.349), rgba(4, 37, 146, 0.212));
+}
+
+/* Caitlyn, contact us form back drop */
+.contactform {
+  float: left;
+  margin-top: 20px;
+  margin-left:200px;
+  font-family: 'Times New Roman', Times, serif;
+  padding:50px;
+  text-align: left;
+  color:rgb(255, 255, 255);
+  width: 400px;
+  background-image: linear-gradient(to bottom left, rgba(146, 144, 163, 0.274), rgb(53, 56, 95),  rgb(0, 0, 0));
+}
+
+/* Muhammad Fuzail Patel: Contact Us page - CTU location */
+
+.center-iframe { /* to center the frame on the webpage */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:60vh;
+}
+
+iframe { /* adjust the size of the frame & style it */
+  width: 80%;
+  height: 80%;
+  border: 2px solid black;
+}
+
+/* Caitlyn, this is for the footer background  */
+.footer {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: #6d6d6d; 
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(93, 82, 126), rgb(54, 54, 54), rgb(0, 0, 0) );
+
+}
+
+/* Caitlyn the icon by the footer  */
+.iconplace1 {
+    margin-left: 90%;
+  }
+
+  /* Caitlyn belongs to some text for the footer */
+.footer1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-style: normal; /* Muhamamd Fuzail Patel */
+}
+
+/* Caitlyn belongs to text on the footer */
+.footer2 {
+    margin-right:30px ;
+    text-align: right;
+}
+
+/* Caitlyn to keep it at the bottom of the page*/
+.footerDiv {
+  /*margin-top: 10%;*/
+  height: 100px;
+  /* border: 3px solid #fff; */
+}

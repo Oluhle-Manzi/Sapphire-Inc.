@@ -1,0 +1,137 @@
+/* This css file is for the home page only */
+
+/* Caitlyn changes the colour of the hyperlink since i couldnt see it  */
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/*Caitlyn; to make it so that any links */
+a:hover {
+  color: rgb(119, 119, 255);
+}
+
+/* Caitlyn, the css for the CTU title on the home page */
+.ctu {
+  font-family: 'Times New Roman', Times, serif;
+  color: white; 
+  font-size: 150px;
+  letter-spacing: 70px;
+  text-align: center;
+  transition: 1s;
+  /* margin-top: 10%; */
+} 
+
+/*Caitlyn: makes the font bigger when you hover over it */
+.ctu:hover {
+  font-size: 300px;
+}
+
+
+/* Caitlyn, removing side spaces from footer and the wallpaper*/
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("WhatsApp\ Video\ 2023-08-04\ at\ 12.08.14.gif.crdownload");
+}
+
+
+/* Caitlyn, to modify the navigation bar*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgb(82, 83, 122), rgb(27, 27, 27));
+}
+
+/* Muhammad Fuzail Patel : Home page logo in navbar */
+.logo {
+  border-radius: 25%;
+  height: 100px;
+  width: 115px;
+}
+
+/* Caitlyn, to modify the navigation buttons*/
+.nav-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #444;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/*Caitlyn; this will make it so that when you hover over the nav buttons they will change color */
+.nav-btn:hover {
+  background-color: rgb(42, 33, 160);
+  background-image: linear-gradient(to bottom right, #3A3A3B , #040404);
+  color: black;
+}
+
+/* Caitlyn, these are the nav buttons for the footer */
+.nav-btn1 {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px 20px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, #3A3A3B , #040404);
+}
+
+/*Caitlyn; this will make the buttons in the footer change color if you hover over them */
+.nav-btn1:hover {
+  background-color: rgb(42, 33, 160);
+  background-image: linear-gradient(to bottom right, #444670 , #040404);
+  color: black;
+}
+
+/* Caitlyn, this is for the footer background */
+.footer {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: #6d6d6d; 
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(93, 82, 126), rgb(54, 54, 54), rgb(0, 0, 0) );
+}
+
+/* Caitlyn, the icon by the footer */
+.iconplace1 {
+    margin-left: 90%;
+  }
+
+/* Caitlyn, belongs to some text for the footer*/
+.footer1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: normal; /* Muhamamd Fuzail Patel */
+}
+
+/* Caitlyn, belongs to text on the footer */
+.footer2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right:30px ;
+    text-align: right;
+}
+
+/* Caitlyn, to keep it at the bottom of the page  */
+.footerDiv {
+  margin-top: 45%;
+  height: 100px;
+  /* border: 3px solid #fff; */
+}
+
